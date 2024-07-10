@@ -1,0 +1,1 @@
+def solution(ids, k):    digitSum = lambda s: int(reduce((lambda a, b: int(a) + int(b)),str(s)))    sm = 0    for questionId in ids:        sm += digitSum(questionId)    return sm % k == 0

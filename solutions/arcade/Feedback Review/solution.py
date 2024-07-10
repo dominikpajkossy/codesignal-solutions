@@ -1,0 +1,1 @@
+import textwrapdef solution(feedback, size):    return textwrap.wrap(feedback,size)

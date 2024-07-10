@@ -1,0 +1,1 @@
+def solution(password, key):    table = key.maketrans("abcdefghijklmnopqrstuvwxyz", key)    return password.translate(table)

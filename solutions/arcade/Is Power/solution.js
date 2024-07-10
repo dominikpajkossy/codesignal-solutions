@@ -1,0 +1,1 @@
+function solution(n) {    if ( n === 1 ) return true;    function rec( num, base, n ){        if ( num === n && base !== n) return true;        if ( num <= 400 ) return rec(num*base,base, n)        else return false            }        let count = 2;    while ( count <= 20 ){        if ( rec(count,count, n)  ) return true;        count++;    }    return false;}

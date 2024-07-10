@@ -1,0 +1,1 @@
+function solution(inputString) {    let string1 = "";    let string2 = "";    inputString = inputString.toLowerCase();    string1 = inputString.substring(0, Math.floor(inputString.length/2) )    string2 = inputString.substring(Math.ceil(inputString.length/2) )    string2 = string2.split("").reverse().join("");    if (string1 === string2) return true;    return false;    }

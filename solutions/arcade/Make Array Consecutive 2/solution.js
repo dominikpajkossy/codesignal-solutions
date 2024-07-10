@@ -1,0 +1,1 @@
+function solution(statues) {   let sortedStatues = statues;   sortedStatues.sort(function(a,b){      return a-b;   })   let difference = (sortedStatues[sortedStatues.length-1] - sortedStatues[0]) - 1 ;   let length = sortedStatues.length;   return difference - (length-2) ; // 2 is the }

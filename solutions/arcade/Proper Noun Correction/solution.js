@@ -1,0 +1,1 @@
+function solution(noun) {    return noun[0].toUpperCase() + noun.substring(1).}toLowerCase();
