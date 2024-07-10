@@ -1,3 +1,7 @@
+/**
+ * This script is used to save all the solutions from CodeSignal to the local machine.
+ */
+
 import 'dotenv/config';
 import { chromium } from 'playwright-extra';
 import stealth from 'puppeteer-extra-plugin-stealth';
